@@ -1,0 +1,14 @@
+.nav-item {
+  &:hover {
+    background-color: tomato;
+    a {
+      color: white;
+    }
+  }
+  &.active {
+    background-color: #4CAF50;
+    a {
+      color: white;
+    }
+  }
+}

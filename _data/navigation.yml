@@ -1,10 +1,8 @@
 - name: Home
   link: /
-- name: Posts
-  link: /jekyll/update/2019/10/08/welcome-to-jekyll.html
-- name: Page not found
-  link: /404.html
+- name: Blog
+  link: /blog.html
+- name: Authors
+  link: /authors.html
 - name: About
-  link: /about/
-- name: Some test page
-  link: /page.html
+  link: /about.html

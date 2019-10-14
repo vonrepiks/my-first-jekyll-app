@@ -1,7 +1,9 @@
-<nav>
+<nav class="d-flex">
   {% for item in site.data.navigation %}
-  <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+  <div class="p-3 nav-item {% if page.url == item.link %}active{% endif %}">
+    <a href="{{ item.link }}">
       {{ item.name }}
     </a>
+  </div>
   {% endfor %}
 </nav>
